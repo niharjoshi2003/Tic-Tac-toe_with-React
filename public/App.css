@@ -1,0 +1,42 @@
+body{
+    background-color: #f0f0f0;
+}
+
+#totalbox {
+    height: 450px;
+    width: 450px;
+    background-color: #4CAF50; 
+    margin: 50px auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  #totalbox button {
+    background-color: white; 
+    border: none; 
+    font-size: 36px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  #totalbox button:hover {
+    background-color: #f5f5f5; 
+  }
+  
+  #totalbox button[type="button"] {
+    background-color: #3f51b5; 
+    color: white; 
+  }
+  
+  #totalbox p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
